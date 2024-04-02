@@ -1,0 +1,31 @@
+TREE:
+    BRANCH_NUM: 3
+    BASE_SIZE: 64
+
+TRAIN:
+    BATCH_SIZE: 8 # 22
+    MAX_EPOCH: 721
+    SAVE_PERIOD: 30
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 5.0
+
+MODEL:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    C_DIM: 100
+    RES_NUM: 2
+    E_DIM: 256
+    
+SEG_FLAG: False
+ROI_FLAG: True
+SEGD_FLAG: False
+CHECKPOINT_PATH: ""
+ENCODER_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+#ENCODER_PATH: "/nfs/archive/master/陈磊-验收材料/软件及图/代码/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+# ENCODER_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder580_3.22_3.89.pth"
+
+# ENCODER_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_pretrain/2021_03_05_12_26_15/Model/text_encoder_bestSL.pth"

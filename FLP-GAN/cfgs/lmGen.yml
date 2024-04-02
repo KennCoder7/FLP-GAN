@@ -1,0 +1,11 @@
+TRAIN:
+    LR: 0.00005
+    DECAY_RATE: 1.0
+    BATCH_SIZE: 64  # 22
+    MAX_EPOCH: 3001
+    
+SEG_FLAG: True
+LM_FLAG: True
+
+ENCODER_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_pretrain/2021_03_22_14_25_41/Model/text_encoder_bestSL.pth"
+# ENCODER_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder580_3.22_3.89.pth"

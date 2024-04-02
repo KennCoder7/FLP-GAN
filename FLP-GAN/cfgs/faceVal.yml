@@ -1,0 +1,61 @@
+TREE:
+    BRANCH_NUM: 3
+    BASE_SIZE: 64
+
+TRAIN:
+    BATCH_SIZE: 14 
+    MAX_EPOCH: 601
+    SAVE_PERIOD: 30
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 5.0
+
+MODEL:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    C_DIM: 100
+    RES_NUM: 2
+    E_DIM: 256
+    
+MAXLEN: 81
+SEG_FLAG: True
+SEGD_FLAG: True
+ROI_FLAG: True
+
+#ENCODER_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_LMGen/2021_01_18_17_06_11/Model/netG1800.pth"
+#NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_03_04_22_51_04/Model/netG_avg_epoch_660.pth"
+#ENCODER_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_LMGen/2021_01_18_17_06_11/Model/netG1800.pth"
+# NETG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_FaceGen/2021_05_08_14_17_15/Model/netG_avg_epoch_660.pth"
+# NETG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_FaceGen/2021_03_04_22_51_04/Model/netG_avg_epoch_660.pth"
+#NETG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_FaceGen/2021_05_13_13_34_30/Model/netG_avg_epoch_660.pth"
+# NETG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_FaceGen/2021_04_29_09_13_42/Model/netG_avg_epoch_660.pth"
+
+#ENCODER_PATH: "/nfs/users/wangkun/FLG-GAN/output/FACE_pretrain/2021_03_05_12_26_15/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/nfs/users/wangkun/FLG-GAN/output/FACE_LMGen/2021_03_29_16_35_10/Model/netG2100.pth"
+#NETG_PATH: "/nfs/users/wangkun/FLG-GAN/output/FACE_FaceGen/2021_04_28_16_02_10/Model/netG_avg_epoch_660.pth"
+#ENCODER_PATH: "/nfs/archive/master/陈磊-验收材料/软件及图/代码/FLG-GAN/output/FACE_pretrain/2021_01_07_17_40_41/Model/text_encoder_bestSL.pth"
+#ENCODER_PATH: "/nfs/archive/master/陈磊-验收材料/软件及图/代码/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/nfs/archive/master/陈磊-验收材料/软件及图/代码/FLG-GAN/output/FACE_LMGen/2021_01_18_17_06_11/Model/netG900.pth"
+#NETG_PATH: "/nfs/archive/master/陈磊-验收材料/软件及图/代码/FLG-GAN/output/FACE_FaceGen/2021_04_29_09_13_42/Model/netG_avg_epoch_660.pth"
+#ENCODER_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_LMGen/2021_01_18_17_06_11/Model/netG1800.pth"
+#NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_03_04_22_51_04/Model/netG_avg_epoch_660.pth"
+#NETG_PATH: '/nfs/users/wangkun/FLG-GAN/output/FACE_FaceGen/2022_07_12_21_11_08/Model/netG_avg_epoch_210.pth'
+
+ENCODER_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_pretrain/2021_01_12_18_47_19/Model/text_encoder_bestSL.pth"
+LMG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_LMGen/2021_01_18_17_06_11/Model/netG900.pth"
+# NETG_PATH: "/home/chenlei/nfs_home/code/FLG-Gan/output/FACE_FaceGen/2021_05_08_14_17_15/Model/netG_avg_epoch_660.pth"
+NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_03_04_22_51_04/Model/netG_avg_epoch_660.pth"
+#NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_05_08_14_17_15/Model/netG_avg_epoch_660.pth"
+#NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_04_29_09_13_42/Model/netG_avg_epoch_660.pth"
+
+
+#ENCODER_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_pretrain/2021_03_05_12_26_15/Model/text_encoder_bestSL.pth"
+#LMG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_LMGen/2021_03_29_16_35_10/Model/netG2100.pth"
+#NETG_PATH: "/data/wangkun/project/FLG-GAN/output/FACE_FaceGen/2021_04_28_16_02_10/Model/netG_avg_epoch_660.pth"
+

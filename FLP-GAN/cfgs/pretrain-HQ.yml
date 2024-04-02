@@ -1,0 +1,4 @@
+ROI_FLAG: True
+SEG_FLAG: False
+EMBEDDING_NUM: 10
+DATAPATH: "/nfs/users/chenlei/data/faces-HQ"

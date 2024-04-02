@@ -1,0 +1,29 @@
+TREE:
+    BRANCH_NUM: 3
+    BASE_SIZE: 64
+
+TRAIN:
+    BATCH_SIZE: 16  # 22
+    MAX_EPOCH: 601
+    SAVE_PERIOD: 30
+    SMOOTH:
+        GAMMA1: 4.0  # 1,2,5 good 4 best  10&100bad
+        GAMMA2: 5.0
+        GAMMA3: 10.0  # 10good 1&100bad
+        LAMBDA: 5.0
+
+MODEL:
+    DF_DIM: 64
+    GF_DIM: 32
+    Z_DIM: 100
+    C_DIM: 100
+    RES_NUM: 2
+    E_DIM: 256
+
+MAXLEN: 81    
+SEG_FLAG: True
+ROI_FLAG: True
+ENCODER_PATH: "E:\\celebA\\FLG-Gan\\model\\0304\\text_encoder_bestSL.pth"
+LMG_PATH: "E:\\celebA\\FLG-Gan\\model\\0304\\netG1800.pth"
+NETG_PATH: "E:\\celebA\\FLG-Gan\\model\\0304\\netG_avg_epoch_660.pth"
+DATAPATH: "E:\\celebA"
